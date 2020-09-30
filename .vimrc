@@ -88,5 +88,17 @@ filetype plugin indent on    " required
 Plugin 'tmhedberg/SimpylFold' " 折叠
 Plugin 'Valloric/YouCompleteMe' " 自动补全
 Plugin 'Raimondi/delimitMate' " 括号引号匹配
+
 Plugin 'scrooloose/nerdtree' " 目录树
 Plugin 'Xuyuanp/nerdtree-git-plugin' " 这个插件可以显示文件的Git增删状态
+" Ctrl+N 打开/关闭
+map <C-n> :NERDTreeToggle<CR>
+" 当不带参数打开Vim时自动加载项目树
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" 当所有文件关闭时关闭项目树窗格
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+" 不显示这些文件
+let NERDTreeIgnore=['\.pyc$', '\~$', 'node_modules'] "ignore files in NERDTree
+" 不显示项目树上额外的信息，例如帮助、提示什么的
+let NERDTreeMinimalUI=1
