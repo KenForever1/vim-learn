@@ -88,3 +88,5 @@ filetype plugin indent on    " required
 Plugin 'tmhedberg/SimpylFold' " 折叠
 Plugin 'Valloric/YouCompleteMe' " 自动补全
 Plugin 'Raimondi/delimitMate' " 括号引号匹配
+Plugin 'scrooloose/nerdtree' " 目录树
+Plugin 'Xuyuanp/nerdtree-git-plugin' " 这个插件可以显示文件的Git增删状态
