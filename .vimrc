@@ -1,3 +1,4 @@
+
 " .vimrc
 " See: http://vimdoc.sourceforge.net/htmldoc/options.html for details
 
@@ -85,6 +86,9 @@ Plugin 'gmarik/Vundle.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+set laststatus=2 " 永远显示状态栏
+set t_Co=256 " 在Windows中用xshell连接打开vim可以显示色彩
+
 Plugin 'tmhedberg/SimpylFold' " 折叠
 Plugin 'Valloric/YouCompleteMe' " 自动补全
 Plugin 'Raimondi/delimitMate' " 括号引号匹配
@@ -112,5 +116,15 @@ set fillchars+=stl:\ ,stlnc:\
 set term=xterm-256color
 set termencoding=utf-8
 
-Plugin 'scrooloose/nerdcommenter'   " commenter: \cc \cu " 注释、反注释
+Plugin 'scrooloose/nerdcommenter'   " commenter: \cc \cu 
 let mapleader=';'
+
+Plugin 'NLKNguyen/papercolor-theme'
+set t_Co=256   " This is may or may not needed.
+set background=dark
+colorscheme PaperColor
+
+execute pathogen#infect()
+" syntax enable
+" set background=light
+" colorscheme solarized
