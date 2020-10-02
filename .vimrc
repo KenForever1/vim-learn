@@ -83,11 +83,10 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
-call vundle#end()            " required
-filetype plugin indent on    " required
 
 set laststatus=2 " 永远显示状态栏
 set t_Co=256 " 在Windows中用xshell连接打开vim可以显示色彩
+
 
 Plugin 'tmhedberg/SimpylFold' " 折叠
 Plugin 'Valloric/YouCompleteMe' " 自动补全
@@ -124,7 +123,16 @@ set t_Co=256   " This is may or may not needed.
 set background=dark
 colorscheme PaperColor
 
-execute pathogen#infect()
-" syntax enable
-" set background=light
-" colorscheme solarized
+Plugin 'fatih/vim-go'
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_function_calls = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_extra_types = 1
+let g:go_fmt_command = "goimports"
+
+Plugin 'Tagbar'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
