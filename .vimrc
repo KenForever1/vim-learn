@@ -173,5 +173,12 @@ let g:UltiSnipsJumpForwardTrigger="<C-f>"
 "<C-b>跳转到上一个代码块可编辑区
 let g:UltiSnipsJumpBackwardTrigger="<C-b>"
 
+Plugin 'frazrepo/vim-rainbow'
+let g:rainbow_active = 1
+
+Plugin 'jisaacks/GitGutter'
+
+Plugin 'mileszs/ack.vim'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
