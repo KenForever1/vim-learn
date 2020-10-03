@@ -90,6 +90,9 @@ set t_Co=256 " 在Windows中用xshell连接打开vim可以显示色彩
 
 Plugin 'tmhedberg/SimpylFold' " 折叠
 Plugin 'Valloric/YouCompleteMe' " 自动补全
+let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
+let g:ycm_confirm_extra_conf = 0
+
 Plugin 'Raimondi/delimitMate' " 括号引号匹配
 
 Plugin 'scrooloose/nerdtree' " 目录树
@@ -137,6 +140,23 @@ let g:tagbar_width = 30
 nmap <F9> :TagbarToggle<CR>
 let g:tagbar_autopreview = 1
 let g:tagbar_sort = 0
+
+Plugin 'ludovicchabant/vim-gutentags'
+" gutentags搜索工程目录的标志，碰到这些文件/目录名就停止向上一级目录递归 
+let g:gutentags_project_root = ['.root', '.svn', '.git', '.project']
+" 所生成的数据文件的名称 
+let g:gutentags_ctags_tagfile = '.tags'
+" 将自动生成的 tags 文件全部放入 ~/.cache/tags 目录中，避免污染工程目录 
+let s:vim_tags = expand('~/.cache/tags')
+let g:gutentags_cache_dir = s:vim_tags
+" 检测 ~/.cache/tags 不存在就新建 
+if !isdirectory(s:vim_tags)
+   silent! call mkdir(s:vim_tags, 'p')
+endif
+" 配置 ctags 的参数 
+let g:gutentags_ctags_extra_args = ['--fields=+niazS', '--extra=+q']
+let g:gutentags_ctags_extra_args += ['--c++-kinds=+pxI']
+let g:gutentags_ctags_extra_args += ['--c-kinds=+px']
 
 Plugin 'Blackrush/vim-gocode'
 imap <F6> <C-x><C-o>
