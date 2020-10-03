@@ -133,6 +133,25 @@ let g:go_highlight_extra_types = 1
 let g:go_fmt_command = "goimports"
 
 Plugin 'Tagbar'
+let g:tagbar_width = 30
+nmap <F9> :TagbarToggle<CR>
+let g:tagbar_autopreview = 1
+let g:tagbar_sort = 0
+
+Plugin 'Blackrush/vim-gocode'
+imap <F6> <C-x><C-o>
+
+Plugin 'honza/vim-snippets'
+Plugin 'SirVer/ultisnips'
+
+"插入模式下直接通过<C-z>键来触发UltiSnips的代码块补全
+let g:UltiSnipsExpandTrigger="<C-z>"
+"弹出UltiSnips的可用列表,由于不常用, 所以这里设置成了特殊的<C-i>映射
+let g:UltiSnipsListSnippets="<C-i>"
+"<C-f>跳转的到下一个代码块可编辑区
+let g:UltiSnipsJumpForwardTrigger="<C-f>"
+"<C-b>跳转到上一个代码块可编辑区
+let g:UltiSnipsJumpBackwardTrigger="<C-b>"
 
 call vundle#end()            " required
 filetype plugin indent on    " required
