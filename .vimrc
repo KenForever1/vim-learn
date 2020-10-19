@@ -97,6 +97,7 @@ Plugin 'Raimondi/delimitMate' " 括号引号匹配
 
 Plugin 'scrooloose/nerdtree' " 目录树
 Plugin 'Xuyuanp/nerdtree-git-plugin' " 这个插件可以显示文件的Git增删状态
+let g:NERDTreeGitStatusPorcelainVersion = 1
 " Ctrl+N 打开/关闭
 map <C-n> :NERDTreeToggle<CR>
 " 当不带参数打开Vim时自动加载项目树
@@ -179,6 +180,10 @@ let g:rainbow_active = 1
 Plugin 'jisaacks/GitGutter'
 
 Plugin 'mileszs/ack.vim'
+let g:ackprg = 'ag --nogroup --nocolor --column'
+map <c-u> :Ack<space>
 
+Plugin 'Chiel92/vim-autoformat'
+noremap <F3> :Autoformat<CR>
 call vundle#end()            " required
 filetype plugin indent on    " required
