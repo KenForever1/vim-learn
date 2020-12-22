@@ -5,6 +5,8 @@
 + [阅读笔记](https://github.com/kktao/vim-learn/blob/master/%E7%AC%AC%E4%B8%80%E7%AB%A0.md)
 + [vim配置使用说明](https://github.com/kktao/vim-learn/blob/master/vim%E9%85%8D%E7%BD%AE%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AF%B4%E6%98%8E.md)
 + [vimplus](https://github.com/chxuan/vimplus)
++ [vim-plugin-dev-guide](https://github.com/wsdjeg/vim-plugin-dev-guide)
++ [VimL 语言编程指北路](http://lymslive.top/book/vimllearn/_book/)
 ## 我的Vim
 + zsh
 ![zsh](https://github.com/kktao/vim-learn/blob/master/images/zsh.png)
