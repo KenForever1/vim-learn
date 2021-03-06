@@ -26,10 +26,10 @@ else
 echo "$tmuxconfPath file not exist"
 fi
 
-wget -P $configPath https://raw.githubusercontent.com/kktao/vim-learn/master/.tmux.conf 
+wget -P $configPath https://raw.githubusercontent.com/kktao/vim-learn/master/customInstall/.tmux.conf 
 
 echo "success download .tmux.conf"
-wget -P $configPath https://raw.githubusercontent.com/kktao/vim-learn/master/.vimrc
+wget -P $configPath https://raw.githubusercontent.com/kktao/vim-learn/master/customInstall/.vimrc
 
 echo "success download .vimrc"
 
