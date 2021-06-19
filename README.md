@@ -9,7 +9,7 @@
 + [VimL 语言编程指北路](http://lymslive.top/book/vimllearn/_book/)
 + [VimL_Script_language](https://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/VimL_Script_language)
 + [vimawesome](https://vimawesome.com/)
-+ [2020年vim的C/C++配置](https://www.jianshu.com/p/249850f2cc64)
++ [2020年vim的C/C++配置](https://github.com/Martins3/My-Linux-config)
 
 ## SpaceVim使用
 + [SpaceVim配置C++环境](https://github.com/kktao/vim-learn/blob/master/readingNotes/VimSpace%E9%85%8D%E7%BD%AEC++%E7%8E%AF%E5%A2%83.md)
