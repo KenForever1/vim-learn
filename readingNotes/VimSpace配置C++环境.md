@@ -1,12 +1,12 @@
 # VimSpace配置C++环境
 
-## 安装VimSpace
+## 1.安装VimSpace
 首先按照官网的说明安装spaceVim
 ```
 curl -sLf https://spacevim.org/install.sh | bash -s -- --install vim
 ```
 
-## 配置VimSpace
+## 2.配置VimSpace
 + 修改配置文件 ~/.SpaceVim.d/init.toml(快捷键SPC f v d)
 
 ```
@@ -67,14 +67,14 @@ enable_clang_syntax_highlight = true
   name = "format"
 ```
 
-## 安装clangd
+## 3.安装clangd
 ```
 sudo bash -c "$(wget -O - https://apt.llvm.org/llvm.sh)"
 sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-11 100
 ```
 注意： clangd版本不一定,如果安装地址为/usr/bin/clangd-11,则直接执行以上命令。如果为/usr/bin/clangd-12则以上命令中改为/usr/bin/clangd-12
 
-## 安装universal ctags
+## 4.安装universal ctags
 ### 安装
 ```
 sudo apt install autoconf
@@ -96,7 +96,7 @@ sudo ln -s /opt/software/universal-ctags/bin/ctags /usr/bin/ctags
 + ctags -R .  #递归地生成.tags文件
 + 然后在vim中用Ctrl+](跳转到函数定义)和Ctrl+t(跳出定义)。
 
-## 工程文件跳转
+## 5.工程文件跳转
 SpaceVim 提供了一个内置的工程文件跳转插件，默认的命令为 `:A`。
 ### 设置
 首先在项目目录下创建.project_alt.json
@@ -106,7 +106,7 @@ SpaceVim 提供了一个内置的工程文件跳转插件，默认的命令为 `
   "src/include/buffer/*.h": {"alternate": "src/buffer/{}.cpp"}
 }
 ```
-## 常用操作
+## 6.常用操作
 
 ### 代码浏览
 + F2：打开语法树，F3：打开文件树
@@ -137,5 +137,5 @@ SpaceVim 提供了一个内置的工程文件跳转插件，默认的命令为 `
 ### 参考：
 https://anson2416.github.io/posts/15d5d397/
 
-## gtags
+## 7.gtags
 ... todo
