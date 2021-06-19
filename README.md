@@ -14,13 +14,15 @@
 ## SpaceVim使用
 + [SpaceVim配置C++环境](https://github.com/kktao/vim-learn/blob/master/readingNotes/VimSpace%E9%85%8D%E7%BD%AEC++%E7%8E%AF%E5%A2%83.md)
 
-## 我的Vim
+## My First Vim
+### 界面
+最开始配置的第一个Vim！！！
 + zsh
 ![zsh](https://github.com/kktao/vim-learn/blob/master/images/zsh.png)
 + vim
 ![vim](https://github.com/kktao/vim-learn/blob/master/images/vim.png)
 
-## 使用的插件
+### 使用的插件
 + Plugin 'gmarik/Vundle.vim'
 + Plugin 'tmhedberg/SimpylFold'
 + Plugin 'Valloric/YouCompleteMe'
