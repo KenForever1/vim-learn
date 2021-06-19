@@ -138,4 +138,4 @@ SpaceVim 提供了一个内置的工程文件跳转插件，默认的命令为 `
 https://anson2416.github.io/posts/15d5d397/
 
 ## 7.gtags
-... todo
+https://spacevim.org/cn/layers/gtags/
