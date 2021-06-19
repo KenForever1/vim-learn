@@ -8,6 +8,10 @@
 + [vim-plugin-dev-guide](https://github.com/wsdjeg/vim-plugin-dev-guide)
 + [VimL 语言编程指北路](http://lymslive.top/book/vimllearn/_book/)
 + [VimL_Script_language](https://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/VimL_Script_language)
+
+## SpaceVim使用
++ [SpaceVim配置C++环境](https://github.com/kktao/vim-learn/blob/master/readingNotes/VimSpace%E9%85%8D%E7%BD%AEC++%E7%8E%AF%E5%A2%83.md)
+
 ## 我的Vim
 + zsh
 ![zsh](https://github.com/kktao/vim-learn/blob/master/images/zsh.png)
