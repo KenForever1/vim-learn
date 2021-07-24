@@ -1,6 +1,6 @@
 ## 基于SpaceVim的扩展--以rust为例
 
-本教程配合(My-Linux-config)["https://github.com/kktao/My-Linux-config]使用，基于[Martins3/My-Linux-config]("https://github.com/Martins3/My-Linux-config")更改，自己使用。
+本教程配合[My-Linux-config](https://github.com/kktao/My-Linux-config)使用，基于[Martins3/My-Linux-config](https://github.com/Martins3/My-Linux-config)更改，自己使用。
 
 ### 如何扩展
 1. 修改./plug/coc.vim文件，添加rust language sever的配置
@@ -20,7 +20,7 @@
 
 ![image](https://user-images.githubusercontent.com/31560259/126873097-21c46611-7aff-48ed-b761-14bd57abf98e.png)
 
-参考：[coc-nvim配置rust]("https://github.com/neoclide/coc.nvim/wiki/Language-servers#rust")
+参考：[coc-nvim配置rust](https://github.com/neoclide/coc.nvim/wiki/Language-servers#rust)
 
 2. 安装rust-analyzer，以及build from source
 
@@ -41,7 +41,7 @@ cargo xtask install --server
 npm set registry https://registry.npmjs.org/
 ```
 
-参考： [rust-analyzer 使用手册]("https://rust-analyzer.github.io/manual.html#vimneovim")
+参考： [rust-analyzer 使用手册](https://rust-analyzer.github.io/manual.html#vimneovim)
 
 ### 效果
 
