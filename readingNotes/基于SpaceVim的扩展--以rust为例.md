@@ -1,6 +1,6 @@
 ## 基于SpaceVim的扩展--以rust为例
 
-本教程配合[My-Linux-config]("https://github.com/kktao/My-Linux-config)使用，基于[Martins3/My-Linux-config]("https://github.com/Martins3/My-Linux-config")更改，自己使用。
+本教程配合(My-Linux-config)["https://github.com/kktao/My-Linux-config]使用，基于[Martins3/My-Linux-config]("https://github.com/Martins3/My-Linux-config")更改，自己使用。
 
 ### 如何扩展
 1. 修改./plug/coc.vim文件，添加rust language sever的配置
