@@ -10,6 +10,7 @@
 + [VimL_Script_language](https://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/VimL_Script_language)
 + [vimawesome](https://vimawesome.com/)
 + [2020年vim的C/C++配置](https://github.com/Martins3/My-Linux-config)
++ [基于SpaceVim的扩展--以rust为例](https://github.com/kktao/vim-learn/blob/master/readingNotes/%E5%9F%BA%E4%BA%8ESpaceVim%E7%9A%84%E6%89%A9%E5%B1%95--%E4%BB%A5rust%E4%B8%BA%E4%BE%8B.md)
 
 ## SpaceVim使用
 + [SpaceVim配置C++环境](https://github.com/kktao/vim-learn/blob/master/readingNotes/VimSpace%E9%85%8D%E7%BD%AEC++%E7%8E%AF%E5%A2%83.md)
