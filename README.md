@@ -13,6 +13,7 @@
 + [基于SpaceVim的扩展--以rust为例](https://github.com/kktao/vim-learn/blob/master/readingNotes/%E5%9F%BA%E4%BA%8ESpaceVim%E7%9A%84%E6%89%A9%E5%B1%95--%E4%BB%A5rust%E4%B8%BA%E4%BE%8B.md)
 + [write-a-vim-script](https://vim.help/41-write-a-vim-script#41.5)
 + [vim-debug](https://inlehmansterms.net/2014/10/31/debugging-vim/)
++ [在 neovim 中使用 Lua](https://github.com/glepnir/nvim-lua-guide-zh)
 
 ## SpaceVim使用
 + [SpaceVim配置C++环境](https://github.com/kktao/vim-learn/blob/master/readingNotes/VimSpace%E9%85%8D%E7%BD%AEC++%E7%8E%AF%E5%A2%83.md)
