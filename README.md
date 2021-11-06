@@ -15,6 +15,7 @@
 + [vim-debug](https://inlehmansterms.net/2014/10/31/debugging-vim/)
 + [在 neovim 中使用 Lua](https://github.com/glepnir/nvim-lua-guide-zh)
 + [select-multiple-words-one-at-a-time-then-replace-them-all](https://vi.stackexchange.com/questions/27812/select-multiple-words-one-at-a-time-then-replace-them-all)
++ [无插件Vim编程](https://coolshell.cn/articles/11312.html)
 
 ## SpaceVim使用
 + [SpaceVim配置C++环境](https://github.com/kktao/vim-learn/blob/master/readingNotes/VimSpace%E9%85%8D%E7%BD%AEC++%E7%8E%AF%E5%A2%83.md)
